@@ -24,7 +24,7 @@ export default class App extends Component {
       number,
     };
 
-    if (this.state.contacts.find(contact => contact.name === name)) {
+    if (this.state.contacts.some(contact => contact.name === name)) {
       alert(`${name} is already in contacts`);
     } else if (contact.name === '') {
       alert('Please enter your contact name!');

@@ -1,0 +1,18 @@
+.text {
+  margin: 0px;
+}
+
+.button {
+  border-radius: 2px;
+  padding: 5px 10px;
+  color: #ffffff;
+  display: inline-block;
+  border: 1px solid transparent;
+  cursor: pointer;
+  background-color: lightslategrey;
+}
+
+.button:hover,
+.button:focus {
+  background-color: cornflowerblue;
+}
